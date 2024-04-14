@@ -1,6 +1,6 @@
 ## Description
 Project simulating an async payment engine with as little as possible locking. <br/>
-Jump to [Requirements and assumptions](https://github.com/razvp/payments-engine/new/main?filename=README.md#requirements-and-assumptions) or see how to [run](https://github.com/razvp/payments-engine/new/main?filename=README.md#running-and-inputoutput)
+Jump to [Requirements and assumptions](https://github.com/razvp/payments-engine#requirements-and-assumptions) or see how to [run](https://github.com/razvp/payments-engine#running-and-inputoutput)
 
 ## Design choices
 ### Async and multithreadding:
