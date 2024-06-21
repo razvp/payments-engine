@@ -64,13 +64,13 @@ pub struct Wallet {
   3. Dispute
       - only Deposits can be disputed
       - move disputed funds from `available` to `held`.
-	4. Resolve
-  		- only disputed deposits can be resolved
-  		- move disputed funds from `held` to `available`.
-	5. Chargeback
-  		- only disputed deposits can be charged back
-  		- `held`funds decrease by the disputed amount
-  		- account wallet gets **locked**.
+  4. Resolve
+      - only disputed deposits can be resolved
+      - move disputed funds from `held` to `available`.
+  5. Chargeback
+      - only disputed deposits can be charged back
+      - `held`funds decrease by the disputed amount
+      - account wallet gets **locked**.
 ### Running and input/output:
 ```
 cargo run -- transactions.csv > accounts.csv
